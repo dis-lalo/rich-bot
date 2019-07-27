@@ -30,4 +30,4 @@ bot.on('message', message=>{
        message.reply('https://www.timothytiah.com/wp-content/uploads/2014/06/money.jpg');
 }
 })
-bot.login(token)
+client.login(process.env.BOT_TOKEN);
